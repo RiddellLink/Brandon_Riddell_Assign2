@@ -220,7 +220,7 @@ a {
 }
 
 .padding-top{
-    padding-top: 48px;
+    padding-top: 108px;
 }
 .homePreview {
     display: flex;
@@ -259,8 +259,7 @@ a {
 .locationsection1{
     background-color: #525149;
     margin-top: -0px;
-    /* height: 1300px;  */
-        padding-left: 156px;
+    padding-left: 156px;
         padding-top: 100px;
         padding-bottom: 30px;
         margin-top: -1px;
@@ -270,18 +269,16 @@ a {
 .locationsection2{
     background-color: #B2B09E;
     margin-top: -0px;
-        /* height: 1300px;  */
-        padding-left: 156px;
+    padding-left: 156px;
         padding-top: 100px;
         padding-bottom: 10px;
         margin-top: -1px;
-        /* height: 1200px;  */
+        
 }
 .locationsection3{
     background-color: #525149;
     margin-top: -0px;
-    /* height: 1300px;  */
-        padding-left: 156px;
+    padding-left: 156px;
         padding-top: 100px;
         padding-bottom: 30px;
         margin-top: -1px;
@@ -290,7 +287,6 @@ a {
 
 .locationPic{
     width: 700px;
-    /* margin-top: -110px;   */
 }
 .locationText{
     padding-top: -100px;
@@ -298,26 +294,17 @@ a {
     justify-content: center;
 }
 
-.locationwrapper {
-    /* padding-left: 156px;
-    padding-top: 100px;
-    padding-bottom: 10px;
-    margin-top: -1px;
-        */
-}
+
 
 .locationflex{
     display: flex;
     align-items: center;
     flex-grow: 1;
-    
 }
 
 /* Location Alt */
 .locationPicAlt{
     width: 700px;
-    margin-top: -110px;  
-    margin-right: 100px;
 }
 .locationTextAlt{
     margin-left: 30px;
@@ -325,16 +312,10 @@ a {
     margin-right: 60px;
 }
 .locationTile{
-    padding-left: 1129px;
-    padding-bottom: 10px;
+    padding-left: 1010px;
 }
-.locationwrapperAlt{
-    /* padding-left: 115px;
-    padding-top: 100px;
-    padding-bottom: 10px;
-    margin-top: 1px;
-        */
-    
+.paddingbottom {
+    padding-bottom: 120px;
 }
 
 
@@ -357,7 +338,7 @@ a {
 
 .mapwrapper {
     padding-left: 228px;
-    padding-top: 60px;
+    padding-top: 100px;
     margin-top: 1px;
     
 }
@@ -371,7 +352,7 @@ a {
 .aboutsection{
     background-color: #525149;
     /* margin-top: -20px; */
-    height: 1129px; 
+    /* height: 1129px;  */
 }
 .aboutImg{
     height: 420px;
