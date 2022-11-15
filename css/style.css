@@ -38,7 +38,7 @@ img {
     
     margin-left: 140px;
     width: 377px;
-    /* width:300px; */
+    width: 300px;
 }
 
 .logo img.imagehover {
@@ -225,6 +225,12 @@ a {
 .homePreview {
     display: flex;
 }
+.homeTimeline {
+    height: 1200px;
+    /* width: 1080px; */
+    max-width: 100%;
+    background-color: #525149;
+}
 
 /* .homeTimeline {} */
 
@@ -253,35 +259,51 @@ a {
 .locationsection1{
     background-color: #525149;
     margin-top: -0px;
-    height: 1300px; 
+    /* height: 1300px;  */
+        padding-left: 156px;
+        padding-top: 100px;
+        padding-bottom: 30px;
+        margin-top: -1px;
    
 }
 
 .locationsection2{
     background-color: #B2B09E;
-    height: 1200px; 
+    margin-top: -0px;
+        /* height: 1300px;  */
+        padding-left: 156px;
+        padding-top: 100px;
+        padding-bottom: 10px;
+        margin-top: -1px;
+        /* height: 1200px;  */
 }
 .locationsection3{
     background-color: #525149;
     margin-top: -0px;
-    height: 1870px; 
+    /* height: 1300px;  */
+        padding-left: 156px;
+        padding-top: 100px;
+        padding-bottom: 30px;
+        margin-top: -1px;
    
 }
 
 .locationPic{
     width: 700px;
-    margin-top: -110px;  
+    /* margin-top: -110px;   */
 }
 .locationText{
-    margin-left: 30px;
-    margin-right: 100px;
+    padding-top: -100px;
+        margin-left: 50px;
     justify-content: center;
 }
+
 .locationwrapper {
-    padding-left: 156px;
+    /* padding-left: 156px;
     padding-top: 100px;
     padding-bottom: 10px;
     margin-top: -1px;
+        */
 }
 
 .locationflex{
@@ -300,17 +322,18 @@ a {
 .locationTextAlt{
     margin-left: 30px;
     justify-content: center;
-    margin-right: 50px;
+    margin-right: 60px;
 }
 .locationTile{
     padding-left: 1129px;
     padding-bottom: 10px;
 }
 .locationwrapperAlt{
-    padding-left: 115px;
+    /* padding-left: 115px;
     padding-top: 100px;
     padding-bottom: 10px;
     margin-top: 1px;
+        */
     
 }
 
