@@ -20,7 +20,7 @@ img {
 }
 
 .banner{
-    width: 1920px; 
+    width: 2120px;
     /* height: 175px; */
     height: 265px;
     object-fit: cover;
@@ -39,9 +39,22 @@ img {
     margin-left: 140px;
     width: 377px;
     /* width:300px; */
-
 }
 
+.logo img.imagehover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .2s;
+}
+
+.logo:hover img.imagehover {
+    opacity: 1;
+}
 /* Nav classes */
 .nav{
     background-color: #B2B09E;
@@ -188,7 +201,7 @@ a {
 
 }
 
-/* Body */
+/* Home */
 .section1{
     background-color: #525149;
     margin-top: -20px;
@@ -205,14 +218,19 @@ a {
     margin-top: 1px;
     
 }
+
 .padding-top{
     padding-top: 48px;
 }
+.homePreview {
+    display: flex;
+}
+
+/* .homeTimeline {} */
 
 /* Timeline CSS */
 .timeline{
     margin-top: 50px;
-    padding-right: px;
     
     width: 2418px;
     /* height: 2215px;  */
@@ -220,7 +238,7 @@ a {
 .timelinesection{
     background-color: #525149;
     margin-top: -20px;
-    height: 4100px; 
+    height: 4300px;
 }
 .timewrapper {
     text-align: center;
@@ -268,9 +286,12 @@ a {
 
 .locationflex{
     display: flex;
+    align-items: center;
     flex-grow: 1;
+    
 }
 
+/* Location Alt */
 .locationPicAlt{
     width: 700px;
     margin-top: -110px;  
@@ -282,7 +303,7 @@ a {
     margin-right: 50px;
 }
 .locationTile{
-    padding-left: 1100px;
+    padding-left: 1129px;
     padding-bottom: 10px;
 }
 .locationwrapperAlt{
@@ -293,10 +314,6 @@ a {
     
 }
 
-
-/* .locationBlockAlt{
-    
-} */
 
 /* Map Page CSS */
 .map{
@@ -325,13 +342,12 @@ a {
 /* About CSS */
 .about{
     display: flex; 
-    /* grid-template-columns: 3.2fr 2fr  */
-    /* grid-template-columns: 1.2fr 2fr  */
+    align-items: center;
     flex-grow: 1;
 }
 .aboutsection{
     background-color: #525149;
-    margin-top: -20px;
+    /* margin-top: -20px; */
     height: 1129px; 
 }
 .aboutImg{
@@ -345,18 +361,11 @@ a {
     
 }
 
-.box{
-    
-    /* padding: 14px;   */
+.box {
     width: 90vh;
-    padding-top: 14px;
-    padding-left: 14px;
-    padding-right: 14px;
-    padding-bottom: 100px;
+    height: fit-content;
+        padding: 15px;
     margin-right: 50px;
-    /* margin-bottom: 550px; */
-   
-
 }
 
 .greybox{
@@ -392,6 +401,7 @@ h3{
 p{
     color: #525149;;
     font-size: 20pt; 
+    line-height: 1.6;
 }
 .pAlt{
     color: #CFCCB3;
