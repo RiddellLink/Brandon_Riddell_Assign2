@@ -178,26 +178,31 @@ a {
 
 .button:hover{
     background-color: #504F46;
-
+    transition: 0.3s;
 }
 .button:hover h1{
     color: #CFCCB3;
+    transition: 0.3s;
 }
 
 .button:hover .square{
     background-color: #CFCCB3;
+    transition: 0.3s;
 
 }
 .button3:hover{
     background-color: #504F46;
+    transition: 0.3s;
 
 }
 .button3:hover h1{
     color: #CFCCB3;
+    transition: 0.3s;
 }
 
 .button3:hover .square{
     background-color: #CFCCB3;
+    transition: 0.3s;
 
 }
 
@@ -210,7 +215,6 @@ a {
 }
 .section2{
     background-color: #B2B09E;
-   
 }
 
 .wrapper {
@@ -225,21 +229,26 @@ a {
 .homePreview {
     display: flex;
 }
-.homeTimeline {
+.margin {
+    margin: 90px;
+
+
+}
+
+/* .homeTimeline {
     height: 1200px;
-    /* width: 1080px; */
-    max-width: 100%;
+    width: 1080px;
+        max-width: 50%;
     background-color: #525149;
 }
 
+*/
 /* .homeTimeline {} */
 
 /* Timeline CSS */
 .timeline{
     margin-top: 50px;
-    
     width: 2418px;
-    /* height: 2215px;  */
 }
 .timelinesection{
     background-color: #525149;
@@ -368,15 +377,23 @@ a {
 .box {
     width: 90vh;
     height: fit-content;
-        padding: 15px;
+    padding: 15px;
     margin-right: 50px;
 }
 
 .greybox{
     background-color: #CFCCB3;
 }
+
 .blackbox{
     background-color: #525149;
+    
+}
+
+.blackbox:hover{
+    background-color: #CFCCB3;
+    color: #525149;
+    transition: 0.3s;
 }
 
 /* Footer */
@@ -409,6 +426,9 @@ p{
 }
 .pAlt{
     color: #CFCCB3;
+}
+.pCentre {
+    text-align: center;
 }
 
 
