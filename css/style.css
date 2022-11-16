@@ -72,7 +72,6 @@ ul {
     list-style-type: none;
     margin: 1;
     padding-left: 105px;
-
     display: flex;
    
    }
@@ -510,10 +509,21 @@ p{
 }
 
 @media screen and (max-width: 1440px) {
-    
+
+    /* Nav CSS */
+    ul{
+        padding-left: 50px;
+    }
+    .ul-nav2{
+        padding-left: 290px;
+    }
+
     /* Home CSS */
      .homeimage {
-        margin-left: 250px
+        margin-left: 100px
+    }
+    .margin {
+        margin: 50px;
     }
 
     /* Location CSS */
@@ -522,6 +532,7 @@ p{
     }
   
     .locationTile{
+        padding-top: 70px;
         padding-left: 560px;
     }
  
@@ -545,7 +556,29 @@ p{
         margin-left: 170px;
         
     }
+    .aboutImg{
+        padding-right: 50px;
+    }
+    
+    .aboutlogo{
+        height: 190px;
+        margin-left: 142px;
+        margin-top: 50px;
+        
+    }
+    .wrapper {
+        padding-left: 100px;
+    }
 
+    /* Footer CSS */
+    .footermargin{
+        margin-left: 150px;
+    }
+
+    /* Typography */
+    p{
+        font-size: 17pt;
+    }
 }
 
 
