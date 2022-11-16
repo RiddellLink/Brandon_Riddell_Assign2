@@ -14,6 +14,11 @@ body {
     line-height: 1.5em;
 }
 
+.section{
+    background-color: #525149;
+    margin-top: -20px;
+}
+
 img {
     max-width: 100%;
   
@@ -22,21 +27,15 @@ img {
 /* Header CSS */
 .banner{
     width: 2120px;
-    /* height: 175px; */
     height: 265px;
     object-fit: cover;
-    /* margin-top: -78px; */
     margin-top: -184px;
-    
     margin-bottom: -28px;
-
 }
 
 .logo{
-   
     position: relative;
     margin-bottom: -109px;
-    
     margin-left: 140px;
     width: 377px;
     width: 300px;
@@ -252,11 +251,7 @@ a {
     margin-top: 50px;
     width: 2418px;
 }
-.timelinesection{
-    background-color: #525149;
-    margin-top: -20px;
-    height: 4300px;
-}
+
 .timewrapper {
     text-align: center;
     padding-right: 10px;
@@ -271,7 +266,7 @@ a {
     background-color: #525149;
     padding-left: 156px;
     padding-top: 100px;
-        padding-bottom: 30px;
+    padding-bottom: 30px;
     
 }
 
@@ -332,11 +327,7 @@ a {
     padding-left: 200px;
     padding-bottom: 0px;
 }
-.mapsection{
-    background-color: #525149;
-    margin-top: -20px;
-    height: 1800px;  
-}
+
 
 .mapwrapper {
     padding-left: 228px;
@@ -351,9 +342,7 @@ a {
     align-items: center;
     flex-grow: 1;
 }
-.aboutsection{
-    background-color: #525149;
-}
+
 .aboutImg{
     height: 420px;
 }
