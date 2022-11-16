@@ -245,6 +245,28 @@ a {
     margin-left: 400px
 }
 
+.box {
+    width: 90vh;
+    height: fit-content;
+    padding: 15px;
+    margin-right: 50px;
+}
+
+.greybox{
+    background-color: #CFCCB3;
+}
+
+.blackbox{
+    background-color: #525149;
+    
+}
+
+.blackbox:hover{
+    background-color: #CFCCB3;
+    color: #525149;
+    transition: 0.3s;
+}
+
 
 /* Timeline CSS */
 .timeline{
@@ -311,7 +333,7 @@ a {
     margin-right: 60px;
 }
 .locationTile{
-    padding-left: 1010px;
+    padding-left: 1020px;
 }
 .paddingbottom {
     padding-bottom: 120px;
@@ -349,32 +371,12 @@ a {
 
 .aboutlogo{
     height: 220px;
-    margin-left: 202px;
+    margin-left: 242px;
     margin-top: 50px;
     
 }
 
-.box {
-    width: 90vh;
-    height: fit-content;
-    padding: 15px;
-    margin-right: 50px;
-}
 
-.greybox{
-    background-color: #CFCCB3;
-}
-
-.blackbox{
-    background-color: #525149;
-    
-}
-
-.blackbox:hover{
-    background-color: #CFCCB3;
-    color: #525149;
-    transition: 0.3s;
-}
 
 /* Footer */
 footer {
@@ -446,30 +448,108 @@ p{
 
 /* Screen Sizes */
 
-@media screen and (max-width: 1440px) {
-    
-    /* .banner{
-        width: 1440px; 
-        height: 150px;
-        object-fit: cover;
-        margin-bottom: -28px;
+@media screen and (max-width: 1820px) {
+    /* Home CSS */
+    .homeimage {
+        margin-left: 295px
     }
 
-    
-    ul {
-        list-style-type: none;
-        margin: 1;
-        padding-left: 45px;
-    
-        display: flex;
-       
-       }
-    .ul-nav2{
-        padding-left: 245px;
-    } */
+    /* Location CSS */
+    .locationPicAlt{
+        padding-right: 80px;
+    }
+  
+    .locationTile{
+        padding-left: 943px;
+    }
+ 
+
+    /* About CSS */
+
+    .aboutlogo{
+        margin-left: 194px;
+        
+    }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 1750px) {
+    
+    /* Home CSS */
+    .homeimage {
+        margin-left: 250px
+    }
+
+    /* Location CSS */
+    .locationPicAlt{
+        padding-right: 80px;
+    }
+  
+    .locationTile{
+        padding-left: 870px;
+    }
+ 
+
+    /* Map CSS */
+    .map{
+        padding-left: 150px;
+    }
+    
+    
+    .mapwrapper {
+        padding-left: 180px;
+        
+    }
+
+    /* About CSS */
+
+    .aboutlogo{
+        margin-left: 170px;
+        
+    }
+
+}
+
+@media screen and (max-width: 1440px) {
+    
+    /* Home CSS */
+     .homeimage {
+        margin-left: 250px
+    }
+
+    /* Location CSS */
+    .locationPicAlt{
+        padding-right: 80px;
+    }
+  
+    .locationTile{
+        padding-left: 560px;
+    }
+ 
+
+    /* Map CSS */
+    .map{
+        padding-left: 60px;
+        /* width: 1427.5px;  */
+        height: 1326px;
+    }
+    
+    
+    .mapwrapper {
+        padding-left: 82px;
+        
+    }
+
+    /* About CSS */
+
+    .aboutlogo{
+        margin-left: 170px;
+        
+    }
+
+}
+
+
+@media screen and (max-width: 375px) {
     
     .banner{
         width: 390px; 
