@@ -238,6 +238,8 @@ a {
 }
 
 .homeimagetext {
+    text-align: center;
+        padding-right: 365px;
     margin-left: 400px
 }
 
