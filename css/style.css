@@ -442,6 +442,27 @@ p{
 
 /* Screen Sizes */
 
+@media screen and (max-width: 1920px) {
+    /* Home CSS */
+    .homeimage {
+        margin-left: 345px
+    }
+    .homeimagetext {
+        padding-right: 350px;
+        margin-left: 360px
+    }
+    /* Location CSS */
+    .locationTile{
+        padding-left: 959px;
+    }
+       /* About CSS */
+
+       .aboutlogo{
+        margin-left: 194px;
+        
+    }
+}
+
 @media screen and (max-width: 1820px) {
     /* Home CSS */
     .homeimage {
@@ -592,7 +613,6 @@ p{
     /* Nav Css */
     .nav{
         margin-bottom: -40px;
-       
     }
     .nav-2{
         margin-bottom: -40px;
@@ -606,7 +626,6 @@ p{
         padding-left: 65px;
     }
     
-
     .square {
         margin-left: 0px;
         margin-top: 0px;
@@ -770,7 +789,6 @@ p{
     /* Map Page CSS */
     .map{
         margin: 0px;
-        
         width: 356.875px; 
         height: 381.5px;
         object-fit: fill;
@@ -848,20 +866,16 @@ p{
         font-size: 14pt; 
         line-height: 1.6;
     }
-    .pAlt{
-        color: #CFCCB3;
-    }
+  
     .pswitch{
-        color: #CFCCB3;
-        font-size: 12pt; 
+        font-size: 10pt;
         text-align: center;
         margin-left: 10px;
         margin-right: 10px;
     }
   
     .pswitch2{
-        color: #CFCCB3;
-        font-size: 12pt; 
+        font-size: 10pt;
         text-align: center;
         margin-left: 10px;
         margin-right: 10px;
@@ -881,9 +895,6 @@ p{
         margin-left: 10px;
         margin-right: 10px;
     }
-
-
-
 }
 
 
