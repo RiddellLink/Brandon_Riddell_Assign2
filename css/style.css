@@ -16,7 +16,7 @@ body {
 
 .section{
     background-color: #525149;
-    margin-top: -20px;
+    
 }
 
 img {
@@ -387,6 +387,9 @@ h2{
 .h2{
     color: #525149;
 }
+.h2Center{
+    text-align: center;
+}
 
 h3{
     color: #CFCCB3;
@@ -570,7 +573,6 @@ p{
       /* Header CSS */
 
     .logo{
-        position: relative;
         margin-bottom: -80px;
         margin-left: 40px;
     }
@@ -578,21 +580,15 @@ p{
 
     /* Nav Css */
     .nav{
-        background-color: #B2B09E;
-        margin-bottom: -30px;
-        margin-top: -9px;
+        margin-bottom: -40px;
+       
     }
     .nav-2{
-        background-color: #BBBAA5;
-        margin-bottom: -37px;
-    
+        margin-bottom: -40px;
+      
     }
-
     ul {
-        list-style-type: none;
-        margin: 1;
         padding-left: 15px;
-        display: flex;
     
     }
     .ul-nav2{
@@ -617,122 +613,35 @@ p{
         
       }
       .button {
-      
-        padding: 5px 1px;
-        width: 25vw;
         height: 9vw;
-        display: flex;
-        margin-top: 30px;
-        margin-left: 0px;
-        margin-right: 30px;
-        margin-bottom: 30px;
-        background-color: #CFCCB3;
-        color: #CFCCB3;
-        letter-spacing: 2px;
-        
+        margin-left: 0px; 
     }
     .button2 {
-       
-        padding: 5px 1px;
-        width: 25vw;
         height: 9vw;
-        display: flex;
-        margin-top: 30px;
         margin-left: 0px;
-        margin-right: 30px;
-        margin-bottom: 30px;
-        background-color: #504F46;
-        color: #CFCCB3;
-        letter-spacing: 2px;
-        
     }
     .button3{
-      
-        padding: 5px 1px;
         width: 30vw;
         height: 9vw;
-        display: flex;
-        margin-top: 15px;
         margin-left: 0px;
-        margin-right: 30px;
-        margin-bottom: 30px;
-        background-color: #CFCCB3;
-        color: #CFCCB3;
-        font-size: 24pt;
-        letter-spacing: 2px;
-        flex-grow:2;
     }
-    .button4 {
-       
-        padding: 5px 1px;
+    .button4 {  
         width: 30vw;
         height: 9vw;
-        display: flex;
-        margin-top: 15px;
         margin-left: 0px;
-        margin-right: 30px;
-        margin-bottom: 30px;
-        background-color: #504F46;
-        color: #CFCCB3;
-        font-size: 24pt;
-        letter-spacing: 2px;
-        flex-grow:2;
     }
     h1{
-        font-weight: 300;
+        font-weight: 500;
         margin-top: -3px;
         margin-left: 4px;
         font-size: 13pt;
-        margin-bottom: 5px;
-        width: 100%;
-        color: #504F46;  
-    }
-
-    .h1{
-        color: #CFCCB3; 
-    }
-
-    a {
-        color: #CFCCB3;
-        text-decoration: none;
-        
-    }
-
-
-    .button:hover{
-        background-color: #504F46;
-        transition: 0.3s;
-    }
-    .button:hover h1{
-        color: #CFCCB3;
-        transition: 0.3s;
-    }
-
-    .button:hover .square{
-        background-color: #CFCCB3;
-        transition: 0.3s;
-
-    }
-    .button3:hover{
-        background-color: #504F46;
-        transition: 0.3s;
-
-    }
-    .button3:hover h1{
-        color: #CFCCB3;
-        transition: 0.3s;
-    }
-
-    .button3:hover .square{
-        background-color: #CFCCB3;
-        transition: 0.3s;
-
+    
     }
 
     /* Home Css */
     .section1{
         background-color: #525149;
-        margin-top: -50px;
+        margin-top: -46px;
     
     }
     .section2{
@@ -749,21 +658,28 @@ p{
         padding-top: 108px;
     }
     .homePreview {
-        display: flex;
+        display: grid;
     }
     .margin {
-        margin: 90px;
+        margin: 8px;
     }
 
     .homeimage {
-        height: 700px;
-        margin-left: 400px
+        height: 180px;
+        margin-left: 26px;
+        
+    }
+    .smallimage{
+        height: 180px;
+        margin-left: 20px;
     }
 
     .homeimagetext {
+        font-size: 14pt;
         text-align: center;
-            padding-right: 365px;
-        margin-left: 400px
+        padding-right: 30px;
+        margin-left: 20px
+        
     }
 
     .box {
@@ -773,12 +689,12 @@ p{
         margin-right: 50px;
     }
 
-    .greybox{
-        background-color: #CFCCB3;
-    }
+   
 
     .blackbox{
         background-color: #525149;
+        margin-left: 20px;
+        margin-right: 20px;
         
     }
 
@@ -919,23 +835,20 @@ p{
 
     h2{
         color: #CFCCB3;
-        font-size: 70px;
+        font-size: 50px;
     }
-    .h2{
-        color: #525149;
-    }
+   
 
     h3{
         color: #CFCCB3;
         font-size: 29px;
     }
     .h3Center {
-        text-align: center;
-        padding-top: 100px;
+        padding-top: 40px;
     }
     p{
         color: #525149;;
-        font-size: 20pt; 
+        font-size: 14pt; 
         line-height: 1.6;
     }
     .pAlt{
@@ -963,6 +876,8 @@ p{
     }
     .pCentre {
         text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
 
