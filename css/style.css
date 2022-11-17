@@ -745,10 +745,10 @@ p{
     }
 
     .locationPic{
-        width: 350px;
+        width: 325px;
+        margin-left: 10px;
     }
     .locationText{
-        /* padding-top: -100px; */
         margin-left: 0px;
        
     }
@@ -761,8 +761,8 @@ p{
 
     /* Location Alt */
     .locationPicAlt{
-        width: 950px;
-        margin-left: 13px;
+        width: 800px;
+        margin-left: 10px;
 
         
     }
@@ -780,7 +780,7 @@ p{
         padding-bottom: 40px;
     }
     .box {
-        width: 40vh;
+        width: 45vh;
         height: fit-content;
         padding: 15px;
         margin-right: 50px;
