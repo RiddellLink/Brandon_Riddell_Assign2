@@ -754,19 +754,24 @@ p{
 
     /* Map Page CSS */
     .map{
-        margin: 30px;
-        width: 1427p.5px; 
-        height: 1526px;
-        object-fit: center;
-        padding-left: 200px;
+        margin: 0px;
+        
+        width: 356.875px; 
+        height: 381.5px;
+        object-fit: fill;
+        padding-left: 0px;
+        margin-left: 9px;
         padding-bottom: 0px;
+        margin-bottom: 10px;
     }
 
 
     .mapwrapper {
-        padding-left: 228px;
-        padding-top: 100px;
-        margin-top: 1px;
+        
+        padding-right: 0px;
+        padding-left: 10px;
+        padding-top: 50px;
+        font-size: 30pt;
         
     }
 
