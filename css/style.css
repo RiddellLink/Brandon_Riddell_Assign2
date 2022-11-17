@@ -4,6 +4,7 @@
 
 html,
 body {
+    overflow-x: hidden;
     min-height: 100vh;
     margin: 0;
     font-family: 'FOT-Rodin Pro', sans-serif;
@@ -580,11 +581,11 @@ p{
 
 
 /* Mobile Version */
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 375px) {
     
 /* Header CSS */
 .banner{
-    width: 375px;
+    width: 2120px;
     height: 265px;
     object-fit: cover;
     margin-top: -184px;
@@ -971,7 +972,7 @@ h3{
 }
 p{
     color: #525149;;
-    font-size: 20pt; 
+    font-size: 12pt;
     line-height: 1.6;
 }
 .pAlt{
@@ -979,7 +980,7 @@ p{
 }
 .pswitch{
     color: #CFCCB3;
-    font-size: 12pt; 
+    font-size: 9pt;
 }
 .pswitch:hover{
     color: #2b2b25;
