@@ -1,9 +1,10 @@
 * {
     box-sizing: border-box;
 }
-/* overflow-x: hidden; */
+
 html,
 body {
+    overflow-x: hidden;
     min-height: 100vh;
     margin: 0;
     font-family: 'FOT-Rodin Pro', sans-serif;
@@ -365,8 +366,6 @@ a {
 footer {
     position: bottom;
     bottom: 0;
-    /* width: 100%; */
-    /* height: 100px;  */
     background-color: #717065;
     
 }
@@ -375,7 +374,8 @@ footer {
 }
 .footermargin{
     margin-left: 200px;
-    margin-right: 200px;
+    margin-right: 240px;
+    
 }
 
 /* Typography */
@@ -644,16 +644,7 @@ p{
         margin-top: -46px;
     
     }
-    .section2{
-        background-color: #B2B09E;
-    }
-
-    .wrapper {
-        padding-left: 228px;
-        margin-top: 1px;
-        
-    }
-
+    
     .padding-top{
         padding-top: 108px;
     }
@@ -676,34 +667,15 @@ p{
 
     .homeimagetext {
         font-size: 14pt;
-        text-align: center;
         padding-right: 30px;
         margin-left: 20px
-        
     }
 
-    .box {
-        width: 90vh;
-        height: fit-content;
-        padding: 15px;
-        margin-right: 50px;
-    }
-
-   
-
-    .blackbox{
-        background-color: #525149;
+    .blackbox{  
         margin-left: 20px;
         margin-right: 20px;
         
     }
-
-    .blackbox:hover{
-        background-color: #CFCCB3;
-        color: #525149;
-        transition: 0.3s;
-    }
-
 
     /* Timeline CSS */
     .timeline{
@@ -824,11 +796,11 @@ p{
         
     }
     .foooterFlex{
-        display: flex;
+        display: grid;
     }
     .footermargin{
-        margin-left: 200px;
-        margin-right: 200px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     /* Typography */
@@ -857,13 +829,17 @@ p{
     .pswitch{
         color: #CFCCB3;
         font-size: 12pt; 
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
     }
-    .pswitch:hover{
-        color: #2b2b25;
-        transition: 0.3s;
-    }
+  
     .pswitch2{
         color: #CFCCB3;
+        font-size: 12pt; 
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .pswitch2:hover{
         color: #2b2b25;
@@ -872,6 +848,7 @@ p{
 
     .psource{
         color: #CFCCB3;
+        text-align: center;
         margin-bottom: -9px; 
     }
     .pCentre {
