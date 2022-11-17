@@ -761,7 +761,7 @@ p{
 
     /* Location Alt */
     .locationPicAlt{
-        width: 800px;
+        width: 900px;
         margin-left: 10px;
 
         
@@ -780,7 +780,7 @@ p{
         padding-bottom: 40px;
     }
     .box {
-        width: 45vh;
+        width: 54vh;
         height: fit-content;
         padding: 15px;
         margin-right: 50px;
