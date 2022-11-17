@@ -679,16 +679,19 @@ p{
 
     /* Timeline CSS */
     .timeline{
-        margin-top: 50px;
-        width: 2418px;
+        margin-top: 0px;
+        
+        margin-left: -4px;
+        max-width: 104%;
+        margin-right: 100px;
+        
+        
     }
 
     .timewrapper {
-        text-align: center;
-        padding-right: 10px;
-        padding-top: 120px;
-        font-size: 80pt;
-        margin-top: 1px;
+        padding-right: 0px;
+        padding-top: 50px;
+        font-size: 30pt;
         
     }
 
@@ -806,7 +809,6 @@ p{
     /* Typography */
 
     h2{
-        color: #CFCCB3;
         font-size: 50px;
     }
    
