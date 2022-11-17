@@ -596,7 +596,7 @@ p{
     
     }
     .ul-nav2{
-        padding-left: 85px;
+        padding-left: 65px;
     }
     
 
@@ -620,6 +620,7 @@ p{
       
         padding: 5px 1px;
         width: 25vw;
+        height: 9vw;
         display: flex;
         margin-top: 30px;
         margin-left: 0px;
@@ -627,14 +628,14 @@ p{
         margin-bottom: 30px;
         background-color: #CFCCB3;
         color: #CFCCB3;
-        font-size: 24pt;
         letter-spacing: 2px;
-        flex-grow:2;
+        
     }
     .button2 {
        
         padding: 5px 1px;
         width: 25vw;
+        height: 9vw;
         display: flex;
         margin-top: 30px;
         margin-left: 0px;
@@ -642,14 +643,14 @@ p{
         margin-bottom: 30px;
         background-color: #504F46;
         color: #CFCCB3;
-        font-size: 24pt;
         letter-spacing: 2px;
-        flex-grow:2;
+        
     }
     .button3{
       
         padding: 5px 1px;
-        width: 25vw;
+        width: 30vw;
+        height: 9vw;
         display: flex;
         margin-top: 15px;
         margin-left: 0px;
@@ -664,7 +665,8 @@ p{
     .button4 {
        
         padding: 5px 1px;
-        width: 25vw;
+        width: 30vw;
+        height: 9vw;
         display: flex;
         margin-top: 15px;
         margin-left: 0px;
@@ -678,9 +680,9 @@ p{
     }
     h1{
         font-weight: 300;
-        margin-top: 5px;
-        margin-left: 2px;
-        font-size: 10pt;
+        margin-top: -3px;
+        margin-left: 4px;
+        font-size: 13pt;
         margin-bottom: 5px;
         width: 100%;
         color: #504F46;  
