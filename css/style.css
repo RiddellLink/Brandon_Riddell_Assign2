@@ -391,6 +391,7 @@ h2{
     color: #CFCCB3;
     font-size: 70px;
 }
+
 .h2{
     color: #525149;
 }
@@ -681,8 +682,6 @@ p{
         margin-left: 20px
     }
 
- 
-
     .blackbox{  
         margin-left: 20px;
         margin-right: 20px;
@@ -706,57 +705,67 @@ p{
     /* Location CSS */
     .locationsection1{
         background-color: #525149;
-        padding-left: 156px;
-        padding-top: 100px;
+        padding-left: 13px;
+        padding-top: 20px;
         padding-bottom: 30px;
         
     }
 
     .locationsection2{
         background-color: #B2B09E;
-        padding-left: 156px;
-        padding-top: 100px;
+        padding-left: 13px;
+        padding-top: 20px;
             padding-bottom: 10px;
     }
     .locationsection3{
         background-color: #525149;
-        padding-left: 156px;
-            padding-top: 100px;
-            padding-bottom: 30px;
+        padding-left: 13px;
+        padding-top: 20px;
+        padding-bottom: 30px;
     
     }
 
     .locationPic{
-        width: 700px;
+        width: 350px;
     }
     .locationText{
-        padding-top: -100px;
-            margin-left: 50px;
-        justify-content: center;
+        /* padding-top: -100px; */
+        margin-left: 0px;
+       
     }
 
     .locationflex{
-        display: flex;
-        align-items: center;
-        flex-grow: 1;
+        display: grid;
+        align-items: none;
+        
     }
 
     /* Location Alt */
     .locationPicAlt{
-        width: 700px;
+        width: 950px;
+        margin-left: 13px;
+
+        
     }
     .locationTextAlt{
-        margin-left: 30px;
-        justify-content: center;
-        margin-right: 60px;
+        margin-top: -30px;
+        margin-left: 0px;
+        justify-content: none;
+        margin-right: 0px;
     }
     .locationTile{
-        padding-left: 1020px;
+        padding-left: 0px;
+    
     }
     .paddingbottom {
-        padding-bottom: 120px;
+        padding-bottom: 40px;
     }
-
+    .box {
+        width: 40vh;
+        height: fit-content;
+        padding: 15px;
+        margin-right: 50px;
+    }
 
     /* Map Page CSS */
     .map{
@@ -808,13 +817,8 @@ p{
     .padding-top{
         padding-top: 58px;
     }
+    
     /* Footer */
-    footer {
-        position: bottom;
-        bottom: 0;
-        background-color: #717065;
-        
-    }
     .foooterFlex{
         display: grid;
     }
@@ -827,8 +831,10 @@ p{
 
     h2{
         font-size: 50px;
+        line-height: 1.2;
+        text-align: center;
     }
-   
+ 
 
     h3{
         color: #CFCCB3;
