@@ -203,15 +203,7 @@ a {
     background-color: #B2B09E;
 }
 
-.wrapper {
-    padding-left: 228px;
-    margin-top: 1px;
-    
-}
 
-.padding-top{
-    padding-top: 108px;
-}
 .homePreview {
     display: flex;
 }
@@ -360,7 +352,22 @@ a {
     margin-top: 50px;
     
 }
+.aboutbox {
+    width: 90vh;
+    height: fit-content;
+    padding: 15px;
+    margin-left: 50px;
+}
 
+.wrapper {
+    padding-left: 228px;
+    margin-top: 1px;
+    
+}
+
+.padding-top{
+    padding-top: 108px;
+}
 
 /* Footer */
 footer {
@@ -570,10 +577,13 @@ p{
 /* Mobile Version */
 @media screen and (max-device-width: 375px) {
 
-      /* Header CSS */
-
+    /* Header CSS */
+    .banner{
+    height: 170px;
+    
+    }
     .logo{
-        margin-bottom: -80px;
+        margin-bottom: -70px;
         margin-left: 40px;
     }
 
@@ -671,6 +681,8 @@ p{
         margin-left: 20px
     }
 
+ 
+
     .blackbox{  
         margin-left: 20px;
         margin-right: 20px;
@@ -680,19 +692,15 @@ p{
     /* Timeline CSS */
     .timeline{
         margin-top: 0px;
-        
         margin-left: -4px;
         max-width: 104%;
         margin-right: 100px;
-        
-        
     }
 
     .timewrapper {
         padding-right: 0px;
         padding-top: 50px;
         font-size: 30pt;
-        
     }
 
     /* Location CSS */
@@ -726,8 +734,6 @@ p{
             margin-left: 50px;
         justify-content: center;
     }
-
-
 
     .locationflex{
         display: flex;
@@ -765,41 +771,47 @@ p{
         margin-bottom: 10px;
     }
 
-
     .mapwrapper {
-        
         padding-right: 0px;
         padding-left: 10px;
         padding-top: 50px;
-        font-size: 30pt;
-        
+        font-size: 30pt;  
     }
 
     /* About CSS */
     .about{
-        display: flex; 
-        align-items: center;
-        flex-grow: 1;
+        display: grid; 
+        align-items: left;
     }
 
     .aboutImg{
-        height: 420px;
+        height: 340px;
+        margin-left: 10px;
     }
 
     .aboutlogo{
-        height: 220px;
-        margin-left: 242px;
-        margin-top: 50px;
-        
+        height: 120px;
+        margin-left: 42px;
     }
+  
+   
+    .aboutbox {
+        width: 40vh;
+        padding: 15px;
+        margin-left: -5px;
+       
+    }
+    .wrapper {
+        padding-left: 20px;
 
-
+    }
+    .padding-top{
+        padding-top: 58px;
+    }
     /* Footer */
     footer {
         position: bottom;
         bottom: 0;
-        /* width: 100%; */
-        /* height: 100px;  */
         background-color: #717065;
         
     }
